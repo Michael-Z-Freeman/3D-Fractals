@@ -17,11 +17,11 @@ The Menger sponge begins as a cube. At every iteration, divide every retained cu
 If S_0 is the initial cube and D = {-1, 0, 1}^3, the recursive construction can be written as:
 
 $$
-S_{n+1} = \bigcup_{(i,j,k) \in D,\; \#\{i,j,k = 0\} \le 1}
+S_{n+1} = \bigcup_{(i,j,k) \in D,\; N_0(i,j,k) \le 1}
 \left( \frac{S_n + (i,j,k)}{3} \right)
 $$
 
-The condition # {i,j,k = 0} <= 1 retains the 20 cells with at most one centred coordinate and removes the seven cells having two or three centred coordinates. After n construction iterations, the idealized form contains 20^n retained subcubes. Its fractal dimension is:
+Here, N_0(i, j, k) is the number of coordinates equal to zero. The condition N_0(i, j, k) <= 1 retains the 20 cells with at most one centred coordinate and removes the seven cells having two or three centred coordinates. After n construction iterations, the idealized form contains 20^n retained subcubes. Its fractal dimension is:
 
 $$
 D = \frac{\log 20}{\log 3} \approx 2.7268
