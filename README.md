@@ -2,10 +2,7 @@
 
 This Unity project contains a performance-bounded, ray-marched Menger sponge. The apparent tunnels and repeated cavities are calculated per pixel on the GPU. They are not represented by a detailed [...]
 
-<video controls muted loop playsinline width="960">
-  <source src="https://files.michaelzfreeman.org/FractalLab_Raymarched_Rotating.mp4" type="video/mp4">
-  [Watch the rotating ray-marched Menger sponge](Captures/FractalLab_Raymarched_Rotating.mp4).
-</video>
+<video src="https://files.michaelzfreeman.org/FractalLab_Raymarched_Rotating.mp4" controls="controls" style="max-width: 100%;"></video>
 
 ## Open the example
 
