@@ -2,7 +2,10 @@
 
 This Unity project contains a performance-bounded, ray-marched Menger sponge. The apparent tunnels and repeated cavities are calculated per pixel on the GPU. They are not represented by a detailed mesh, a hierarchy of generated cubes, colliders, or triangle geometry.
 
-![Ray-marched Menger sponge](Assets/Screenshots/FractalLab_Raymarched.png)
+<video controls muted loop playsinline width="960">
+  <source src="Captures/FractalLab_Raymarched_Rotating.mp4" type="video/mp4">
+  [Watch the rotating ray-marched Menger sponge](Captures/FractalLab_Raymarched_Rotating.mp4).
+</video>
 
 ## Open the example
 
@@ -60,7 +63,7 @@ The main ray loop has a compile-time ceiling of 128 steps. The material default 
 | [Assets/Scenes/FractalLab.unity](Assets/Scenes/FractalLab.unity) | Example scene containing the single cube proxy object. |
 | [Assets/Fractals/MengerRaymarch.mat](Assets/Fractals/MengerRaymarch.mat) | Editable Unity material: iterations, max ray steps, epsilon, step scale, colours, and light direction. |
 | [Assets/Fractals/Shaders/BoundedMengerRaymarch.shader](Assets/Fractals/Shaders/BoundedMengerRaymarch.shader) | HLSL implementation of the bounding-box intersection, Menger distance function, ray loop, and normal estimation. |
-| [Assets/Screenshots/FractalLab_Raymarched.png](Assets/Screenshots/FractalLab_Raymarched.png) | Captured result shown above. |
+| [Captures/FractalLab_Raymarched_Rotating.mp4](Captures/FractalLab_Raymarched_Rotating.mp4) | 10-second, 1080p/30 FPS capture of the rotating ray-marched fractal shown above. |
 
 ## Performance controls
 

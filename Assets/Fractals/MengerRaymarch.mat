@@ -25,7 +25,7 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _GlowStrength: 0.22
+    - _GlowStrength: 0.59
     - _Iterations: 3
     - _MaxDistance: 2
     - _MaxSteps: 64
